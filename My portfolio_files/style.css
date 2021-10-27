@@ -27,7 +27,7 @@ body{
 
 }
 .img-fluid{
-    background-image: image("mybg.jpg");
+    background-image: image("khayelitsha.jpg");
     background-size: cover;
     /*padding-right: 70px; */
 }
@@ -42,20 +42,20 @@ body{
 .heading-content h5{
     font-size: 3em;
     font-weight: 300;
-    color: #1ebba3;
+    color: black;
     font-family: monospace;
 }
 
 .heading-content h1{
     font-size: 4em;
     font-weight: bolder;
-    color:#1ebba3;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }.heading-content p{
-    font-size: 2em;
+    font-size: 1em;
     text-transform: uppercase;
-    font-weight: bolder;
-    color: #3258a0;
+    font-weight: lighter;
+    color: #1ebba3;
     word-spacing: 5px;
     letter-spacing: 2px;
 

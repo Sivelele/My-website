@@ -6,65 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
-      
+      <style>
+          body{background-repeat: no-repeat;
+          background-size: cover;
+          height:100%;
+          width:100%;}
+      </style>
 </head>
-<body>  
-   <div>
+<body style="background-image:url(pexels-photo-3861969.jpeg)";  >  
+   <div id="home">
        <!--Navigation Start-->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar scroll</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+       <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+         
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-             
+              
             </ul>
-            
+           
           </div>
         </div>
-      </nav> 
-       
+       </nav>
 
        <!--Navigation End--> 
        <!--Background Start-->
+      
+       <div>
+           <div class="heading-content text-center">
+           <h5>Hello Everyone, I'm</h5>
+           <h1>SIVELELE MZILENI</h1>
+           <p>Never allow your background to define you</p>
+
+       </div>
        <!--Background End-->
    </div>
 
+   <!--About Start-->
+   <div id="about" class="mt-3 mb-5">
+       <div class="post-heading text-center">
+           <h3 class="display-4 font weight-bold">About Me</h3>
+           <hr class="w-50 mx-auto pb-5">
+       </div>
+        
 
 
+   </div>
+   <!--About End-->
 
+   <!--Services Start-->
+   <div id="Services" class="">
+
+
+   </div>
+   <!--Services End-->
+
+   <!--Contact Start-->
+   <div id="Contact" class="">
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>      
 
 </body>
-
 </html> 
